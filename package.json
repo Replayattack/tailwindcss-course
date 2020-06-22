@@ -1,0 +1,17 @@
+{
+  "name": "tailwindcss-course",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "keywords": [],
+  "author": "Daniel G. <replayattack@pm.me>",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "autoprefixer": "^9.8.2",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
+  }
+}
